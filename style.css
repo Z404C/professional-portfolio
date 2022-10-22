@@ -1,5 +1,46 @@
-*{
-margin: 35%;
-padding: 40%;
+
+
+body{
+    background-color: rgb(170, 187, 241);
+}
+
+
+
+h1 {
+    text-align: center;
+    padding-top: 2.5%;
+}
+
+
+
+.jumplinks ul li {
+    display: inline-block;
+    margin: 2%;
+    list-style-type: none;
+    position:relative;
+    left: 250px;
+    
+}
+
+.aboutme{
+    text-align: center;
+    padding: 3%;
+}
+
+
+h2{
+    text-align: center;
+}
+
+.boxes{
+    margin: 3%;
+    padding: 5px;
+    border: 5px;
+    background-color: lavender;
+    display: inline-block;
+}
+
+#bigBox-title{
+    color: blueviolet;
 }
 
