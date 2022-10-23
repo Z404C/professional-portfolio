@@ -13,3 +13,9 @@ The task was to build a webpage from scratch and use advanced CSS features to ai
 
 # What Did I Learn?
 Using this challenge, I learned how to build HTML and CSS files from scratch and how CSS plays an important part of making a webpage visually appealing. 
+
+
+
+
+
+![portfolioscreenshot](https://user-images.githubusercontent.com/112136706/197415299-cf519b56-09a6-4d84-9b23-6ce4b44d2d46.png)
