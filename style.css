@@ -1,7 +1,13 @@
 
 
+
+
+
+
 body{
     background-color: rgb(170, 187, 241);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
 
 
@@ -9,22 +15,23 @@ body{
 h1 {
     text-align: center;
     padding-top: 2.5%;
+    
 }
 
 
-
-.jumplinks ul li {
+ .jumplinks ul li { 
     display: inline-block;
     margin: 2%;
     list-style-type: none;
     position:relative;
-    left: 250px;
-    
+    left: 570px;
+    display: inline-flex;
 }
 
-.aboutme{
+
+#about{
     text-align: center;
-    padding: 3%;
+    padding: 10%;
 }
 
 
@@ -32,7 +39,7 @@ h2{
     text-align: center;
 }
 
-.boxes{
+#bigBox{
     margin: 3%;
     padding: 5px;
     border: 5px;
@@ -40,7 +47,66 @@ h2{
     display: inline-block;
 }
 
-#bigBox-title{
+#bigBox p{
+    padding: 1.5%;
+    display: inline-block;
+    background-color: black;
     color: blueviolet;
+    position: relative;
+    top: 1px;
+    left: 1px;
 }
 
+
+#smallBox-one img{
+    width: 315px;
+    height: 30%;
+    background-color: black;
+}
+
+#smallBox-two img{
+    width:315px;
+    height: 30%;
+}
+
+
+#smallBox-one :hover{
+    opacity: .5;
+}
+
+#smallBox-two :hover{
+    opacity: .5;
+}
+
+
+#bigBox img:hover{
+    opacity: .5;
+    
+}
+
+
+#contact{
+    padding: 20px;
+    
+}
+
+.info{
+    padding: 5%;
+    background-color: black;
+    color: darkgray;
+    font-size: large;
+    display: flex;
+}
+
+
+@media screen and (max-width:768px){
+    .info{
+        flex-wrap: wrap;
+        position: static;
+       
+        
+    }
+    
+}
+
+    
