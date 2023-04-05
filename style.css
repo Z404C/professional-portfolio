@@ -69,12 +69,21 @@ h2{
     height: 30%;
 }
 
+#smallBox-three img{
+    width:315px;
+    height: 30%;
+}
+
 
 #smallBox-one :hover{
     opacity: .5;
 }
 
 #smallBox-two :hover{
+    opacity: .5;
+}
+
+#smallBox-three :hover{
     opacity: .5;
 }
 
